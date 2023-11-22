@@ -1,0 +1,294 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(240, 227, 191);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.back {
+    padding: 60px 0;
+    /*Altura del encabezado*/
+    padding-right: 150px;
+    /*Altura*/
+    background-color: rgba(245, 180, 237, 0.966);
+    border: 5px;
+    /*Borde del encabezado*/
+    color: rgb(230, 220, 227);
+    border-style: solid;
+}
+
+
+.Menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+/*.Menu .navbar ul li {
+    position: relative;
+    float: left
+}
+.Menu .navbar ul li {
+    font-size: 18px;
+    padding: 10px;
+    display: absolute;
+    background-color: rgba(245, 180, 237, 0.966);
+}*/
+img {
+    margin: 0%;
+    padding: 0%;
+    width: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    color: rgba(190, 87, 190, 0.897);
+    font-weight: 500px;
+    text-transform: initial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.SobreMi {
+    text-align: justify;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(113, 92, 133);
+    font-weight: 500;
+    text-transform: initial;
+    font-style: oblique;
+    margin: 50px;
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.French {
+
+    display: flex;
+    padding: 1em 0;
+    flex-direction: row;
+    text-align: center;
+    border-color: rgb(192, 168, 91);
+    border-style: solid;
+    border-width: 2px;
+    border-spacing: 1px;
+    margin: 5%;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.almond {
+    display: flex;
+    padding: 1em 0;
+    flex-direction: row;
+    text-align: center;
+    border-color: rgb(192, 168, 91);
+    border-style: solid;
+    border-width: 2px;
+    border-spacing: 1px;
+    margin: 5%;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+/* Titlo de las descripciones de uñas */
+h3 {
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Spectral', serif;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+
+    /* Animacion para el texto de la pag principal */
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(119, 75, 110);
+    color: rgb(245, 219, 248);
+    font-family: monospace padding 20px;
+    transition: opacity 0.4s;
+}
+
+
+    .French {
+
+        display: flex;
+        padding: 1em 0;
+        flex-direction: row;
+        text-align: center;
+        border-color: rgb(192, 168, 91);
+        border-style: solid;
+        border-width: 3px;
+        border-spacing: 1px;
+        margin: 5%;
+        font-size: small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+        text-align: center;
+
+    }
+
+    .img-fluid {
+        margin: 1%;
+        padding: 0%;
+        width: 24%;
+        height: 50%;
+    }
+
+    .back {
+        padding: 50px 0;
+        /*Altura del encabezado*/
+        padding-right: 150px;
+        /*Altura*/
+        background-color: rgba(245, 180, 237, 0.966);
+        border: 5px;
+        /*Borde del encabezado*/
+        color: rgb(230, 220, 227);
+        border-style: solid;
+    }
+
+    /*Tablet*/
+    @media (min-width: 920px) {
+
+    body {
+        background-color: rgb(240, 227, 191);
+
+    }
+
+    .French {
+        display: flex;
+        padding: 1em 0;
+        flex-direction: row;
+        text-align: center;
+        border-color: rgb(192, 168, 91);
+        border-style: solid;
+        border-width: 3px;
+        border-spacing: 1px;
+        margin: 5%;
+        font-size: small;
+        font-family: 'Playpen Sans', sans-serif;
+        font-style: oblique;
+        text-align: center;
+
+    }
+}
+
+    .img-fluid {
+        margin: 0%;
+        padding: 0%;
+        width: 20%;
+        height: 40%;
+    }
+
+    .back {
+        padding: 50px 0;
+        /*Altura del encabezado*/
+        padding-right: 150px;
+        /*Altura*/
+        background-color: rgba(245, 180, 237, 0.966);
+        border: 5px;
+        /*Borde del encabezado*/
+        color: rgb(230, 220, 227);
+        border-style: solid;
+    }
+
+    .Seguime {
+        font-size: 20px;
+        margin: 1%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+
+    .instagram {
+        text-align:center;
+        margin-top: 10px;
+        /* Espacio entre el texto y la imagen de Instagram */
+    }
+
+    .infoimg {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .subtitulo {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .textoenfermedades {
+        font-family: 'Playpen Sans', sans-serif;
+        /* Fuente para párrafos */
+        font-weight: bold;
+    }
+
+    .centrado {
+        /* Centrar imagenes de "enfermedades */
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .Agenda {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+    }
+
+    .presentacion {
+
+        font-family: 'Playpen Sans', sans-serif;
+        /* Fuente para párrafos */
+        font-weight: bold;
+        font-size: 120%;
+    }
+
+    .esculpidastxt {
+        font-family: 'Playpen Sans', sans-serif;
+        /* Fuente para párrafos */
+        font-weight: bold;
+        font-size: 120%;
+    }
+
+    .kappingtxt {
+        font-family: 'Playpen Sans', sans-serif;
+        /*Fuente para párrafos */
+        font-weight: bold;
+        font-size: 120%;
+    }
